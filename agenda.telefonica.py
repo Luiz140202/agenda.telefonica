@@ -42,7 +42,7 @@ def menu():
         escolha = input("Escolha uma opção: ")
 
         if escolha == "1":
-            nome = input("Digite o nome do contato: ")
+            nome = input("Digite o nome do contato que deseja adicionar: ")
             telefone = input("Digite o telefone do contato: ")
             agenda.adicionar_contato(nome, telefone)
         elif escolha == "2":
