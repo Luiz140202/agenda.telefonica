@@ -46,10 +46,10 @@ def menu():
             telefone = input("Digite o telefone do contato: ")
             agenda.adicionar_contato(nome, telefone)
         elif escolha == "2":
-            nome = input("Digite o nome do contato a ser removido: ")
+            nome = input("Digite o nome do contato que deseja remover: ")
             agenda.remover_contato(nome)
         elif escolha == "3":
-            nome = input("Digite o nome do contato a ser pesquisado: ")
+            nome = input("Digite o nome do contato que queira pesquisar: ")
             agenda.pesquisar_contato(nome)
         elif escolha == "4":
             agenda.listar_contatos()
@@ -57,6 +57,6 @@ def menu():
             print("Obrigado por usar a Agenda Telefônica. Até mais!")
             break
         else:
-            print("Opção inválida. Por favor, escolha uma opção válida.")
+            print("Opção inválida. Por favor, escolha uma opção de 1 a 5.")
 
 menu()
