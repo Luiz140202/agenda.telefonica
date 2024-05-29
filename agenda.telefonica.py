@@ -33,7 +33,7 @@ class AgendaTelefonica:
 def menu():
     agenda = AgendaTelefonica()
     while True:
-        print("\nMENU OPCOES:")
+        print("\nMENU DE OPCOES:")
         print("1. Adicionar Contato")
         print("2. Remover Contato")
         print("3. Pesquisar Contato")
