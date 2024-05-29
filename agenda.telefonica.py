@@ -33,7 +33,7 @@ class AgendaTelefonica:
 def menu():
     agenda = AgendaTelefonica()
     while True:
-        print("\nMENU:")
+        print("\nMENU OPCOES:")
         print("1. Adicionar Contato")
         print("2. Remover Contato")
         print("3. Pesquisar Contato")
@@ -49,7 +49,7 @@ def menu():
             nome = input("Digite o nome do contato que deseja remover: ")
             agenda.remover_contato(nome)
         elif escolha == "3":
-            nome = input("Digite o nome do contato que queira pesquisar: ")
+            nome = input("Digite o nome do contato que deseja pesquisar: ")
             agenda.pesquisar_contato(nome)
         elif escolha == "4":
             agenda.listar_contatos()
