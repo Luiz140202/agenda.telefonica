@@ -7,12 +7,12 @@ class AgendaTelefonica:
             print("O contato já existe.")
         else:
             self.contatos[nome] = telefone
-            print("Contato adicionado com sucesso.")
+            print(" O contato foi adicionado com sucesso.")
 
     def remover_contato(self, nome):
         if nome in self.contatos:
             del self.contatos[nome]
-            print("Contato removido com sucesso.")
+            print("O contato foi removido com sucesso.")
         else:
             print("O contato não foi encontrado.")
 
